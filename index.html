@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      padding-top: 70px;
+    }
+
+    nav {
+      position: fixed;      
+      top: 0;
+      left: 0;
+      width: 100%;          
+      background-color: #333;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    nav h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #00aaff;
+    }
+
+    /* Optional styling for content */
+    h2 {
+      margin-top: 30px;
+      padding: 20px;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+    }
+
+    p {
+      text-align: center;
+      padding: 0 20px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>Portfolio</h1>
+    <ul>
+      <li><a href="index2.html">Glitch Art</a></li>
+      <li><a href="index3.html">3D Model</a></li>
+    </ul>
+  </nav>
+
+  <h2>Art One</h2>
+  <img src="monalisa-grumpycat.jpg" alt="Meme Art" width="300" height="300" />
+  <p>A mashup to create meme art using Photoshop techniques</p>
+</body>
+</html>
